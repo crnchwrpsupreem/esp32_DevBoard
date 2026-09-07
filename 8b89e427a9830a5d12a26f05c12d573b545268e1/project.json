@@ -11,7 +11,7 @@
         "top": "boards/esp32-remote-7131ec/top.png",
         "bottom": "boards/esp32-remote-7131ec/bottom.png"
       },
-      "model": "boards/esp32-remote-7131ec/board-view.glb",
+      "model": "boards/esp32-remote-7131ec/board-a4abcac3511a.glb",
       "schematics": [
         {
           "name": "ESP32 Remote",
