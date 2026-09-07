@@ -10,6 +10,4 @@ concurrency:
   cancel-in-progress: true
 jobs:
   publish:
-    uses: crnchwrpsupreem/crnchwrpsupreem.github.io/.github/workflows/hardware-assets.yml@feature/hardware-project-pages
-    with:
-      tooling_ref: feature/hardware-project-pages
+    uses: crnchwrpsupreem/crnchwrpsupreem.github.io/.github/workflows/hardware-assets.yml@main
