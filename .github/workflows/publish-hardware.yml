@@ -1,0 +1,15 @@
+name: Build project files
+on:
+  push:
+    branches-ignore: [project-assets]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hardware-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  publish:
+    uses: crnchwrpsupreem/crnchwrpsupreem.github.io/.github/workflows/hardware-assets.yml@feature/hardware-project-pages
+    with:
+      tooling_ref: feature/hardware-project-pages
