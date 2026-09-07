@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "repository": "crnchwrpsupreem/esp32_DevBoard",
+  "snapshot": "8b89e427a9830a5d12a26f05c12d573b545268e1",
+  "boards": [
+    {
+      "name": "ESP32 Remote",
+      "source": "ESP32 Remote/ESP32 Remote.kicad_pcb",
+      "images": {
+        "board": "boards/esp32-remote-7131ec/board.png",
+        "top": "boards/esp32-remote-7131ec/top.png",
+        "bottom": "boards/esp32-remote-7131ec/bottom.png"
+      },
+      "model": "boards/esp32-remote-7131ec/board-view.glb",
+      "schematics": [
+        {
+          "name": "ESP32 Remote",
+          "file": "boards/esp32-remote-7131ec/schematics/ESP32 Remote.svg"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "JLCPCB package",
+          "file": "boards/esp32-remote-7131ec/manufacturing.zip"
+        },
+        {
+          "label": "Gerbers + drills",
+          "file": "boards/esp32-remote-7131ec/gerbers.zip"
+        },
+        {
+          "label": "BOM",
+          "file": "boards/esp32-remote-7131ec/bom.csv"
+        },
+        {
+          "label": "Pick & place",
+          "file": "boards/esp32-remote-7131ec/positions.csv"
+        },
+        {
+          "label": "Schematic PDF",
+          "file": "boards/esp32-remote-7131ec/schematic.pdf"
+        }
+      ]
+    }
+  ]
+}

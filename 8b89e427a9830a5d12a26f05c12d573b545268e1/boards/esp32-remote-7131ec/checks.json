@@ -1,0 +1,2321 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-07T17:59:12",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ESP32 Remote.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 138.44,
+                        "y": 82.696
+                    },
+                    "uuid": "640471dd-cf01-4669-8388-cb39783cd9fd"
+                },
+                {
+                    "description": "Pad 6 [unconnected-(J2-Shield-Pad6)] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.37,
+                        "y": 81.666
+                    },
+                    "uuid": "7bed6447-7fc7-47c1-8fdb-46c1ac2ce73d"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 145.59,
+                        "y": 82.696
+                    },
+                    "uuid": "85de2b23-b836-4f21-9e12-bbba463a09f4"
+                },
+                {
+                    "description": "Pad 7 [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 145.75,
+                        "y": 81.576
+                    },
+                    "uuid": "dba9ca9a-d10a-4d0b-a691-e91b6801a391"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 138.44,
+                        "y": 82.696
+                    },
+                    "uuid": "640471dd-cf01-4669-8388-cb39783cd9fd"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.89,
+                        "y": 82.296
+                    },
+                    "uuid": "9f3301fd-66aa-46e7-83b0-4dc39f1ff583"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 145.59,
+                        "y": 82.696
+                    },
+                    "uuid": "85de2b23-b836-4f21-9e12-bbba463a09f4"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 146.04,
+                        "y": 82.296
+                    },
+                    "uuid": "5c639afd-c0ff-4bcb-9c4e-52c4f9154bfa"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 138.44,
+                        "y": 82.696
+                    },
+                    "uuid": "640471dd-cf01-4669-8388-cb39783cd9fd"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 138.44,
+                        "y": 82.296
+                    },
+                    "uuid": "a7bbe256-02ce-4e08-93ed-955d95b1a8d5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 138.44,
+                        "y": 82.696
+                    },
+                    "uuid": "640471dd-cf01-4669-8388-cb39783cd9fd"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 138.89,
+                        "y": 82.296
+                    },
+                    "uuid": "feb5cd03-1947-4f14-a51a-f9508c2b354f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 145.59,
+                        "y": 82.696
+                    },
+                    "uuid": "85de2b23-b836-4f21-9e12-bbba463a09f4"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 145.59,
+                        "y": 82.296
+                    },
+                    "uuid": "94ce00f6-3974-488c-a48b-a31c29a4f2e8"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of J2 on Edge.Cuts",
+                    "pos": {
+                        "x": 145.59,
+                        "y": 82.696
+                    },
+                    "uuid": "85de2b23-b836-4f21-9e12-bbba463a09f4"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 146.04,
+                        "y": 82.296
+                    },
+                    "uuid": "b4394d76-e8ac-4315-bfb7-dcb123256e2c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 25 [/IO0] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 54.864
+                    },
+                    "uuid": "57653303-5c19-4108-8408-d318efd086f6"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 26 [unconnected-(U2-ADC2_CH0/GPIO4-Pad26)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 53.594
+                    },
+                    "uuid": "24749630-4d00-4ee9-9818-45e8e16b72cd"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 27 [unconnected-(U2-GPIO16-Pad27)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 52.324
+                    },
+                    "uuid": "c74fda55-7883-4f9c-a46d-5402ba97ac3d"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 28 [unconnected-(U2-GPIO17-Pad28)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 51.054
+                    },
+                    "uuid": "a7dcd698-1b8f-4759-be88-a8f8f386ac8b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 29 [unconnected-(U2-GPIO5-Pad29)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 49.784
+                    },
+                    "uuid": "06f4ddbb-4be5-4a70-9ed0-d3cbec0b42f7"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 30 [unconnected-(U2-GPIO18-Pad30)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 48.514
+                    },
+                    "uuid": "f859f532-ceec-4de4-9deb-cc588113c39a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 31 [unconnected-(U2-GPIO19-Pad31)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 47.244
+                    },
+                    "uuid": "59c56935-091a-4159-a663-ce45bf830fee"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 32 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 45.974
+                    },
+                    "uuid": "4bbffe90-47fd-4a29-83e1-86c58bd828b8"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 33 [unconnected-(U2-GPIO21-Pad33)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 44.704
+                    },
+                    "uuid": "37bad4da-20d6-47f0-81a0-da602d3b07b8"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 34 [/RXD] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 43.434
+                    },
+                    "uuid": "4e036f45-83b5-46c7-bb46-763aa520a81e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 35 [/TXD] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 42.164
+                    },
+                    "uuid": "f7edb207-7780-4c8b-836f-3c357b0e1c83"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 36 [unconnected-(U2-GPIO22-Pad36)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 40.894
+                    },
+                    "uuid": "b5973ef3-c611-40e9-aee9-fcf63b21adff"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 37 [unconnected-(U2-GPIO23-Pad37)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 39.624
+                    },
+                    "uuid": "0e96f420-4c5f-4526-aa24-45189cc9c28f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2660 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Pad 38 [GND] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.004,
+                        "y": 38.354
+                    },
+                    "uuid": "7b48e8da-77cb-41a1-8cd9-fd57cfb9141c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 142.24,
+                        "y": 82.296
+                    },
+                    "uuid": "60568d2e-a1ba-4996-bb62-828d99a40556"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1120 mm)",
+            "items": [
+                {
+                    "description": "Track [/3.3V] on In2.Cu, length 11.1760 mm",
+                    "pos": {
+                        "x": 143.764,
+                        "y": 55.372
+                    },
+                    "uuid": "63813630-70bf-44b3-a206-57c098c38909"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.526,
+                        "y": 54.61
+                    },
+                    "uuid": "7d2bc6bd-e90e-4273-b131-cca329152dc3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [unconnected-(J2-Shield-Pad6)] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.37,
+                        "y": 81.666
+                    },
+                    "uuid": "7bed6447-7fc7-47c1-8fdb-46c1ac2ce73d"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 138.665,
+                        "y": 82.296
+                    },
+                    "uuid": "f756076e-68bd-499c-a59c-ba7993ad92b6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 145.75,
+                        "y": 81.576
+                    },
+                    "uuid": "dba9ca9a-d10a-4d0b-a691-e91b6801a391"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 145.815,
+                        "y": 82.296
+                    },
+                    "uuid": "26272854-ae9b-45d8-8715-8066aadb5817"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [unconnected-(J2-Shield-Pad6)] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.37,
+                        "y": 81.666
+                    },
+                    "uuid": "7bed6447-7fc7-47c1-8fdb-46c1ac2ce73d"
+                },
+                {
+                    "description": "Polygon [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.89,
+                        "y": 82.296
+                    },
+                    "uuid": "9f3301fd-66aa-46e7-83b0-4dc39f1ff583"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.89,
+                        "y": 82.296
+                    },
+                    "uuid": "9f3301fd-66aa-46e7-83b0-4dc39f1ff583"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 138.665,
+                        "y": 82.296
+                    },
+                    "uuid": "f756076e-68bd-499c-a59c-ba7993ad92b6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets <no net> and )",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 146.04,
+                        "y": 82.296
+                    },
+                    "uuid": "5c639afd-c0ff-4bcb-9c4e-52c4f9154bfa"
+                },
+                {
+                    "description": "Pad 7 [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 145.75,
+                        "y": 81.576
+                    },
+                    "uuid": "dba9ca9a-d10a-4d0b-a691-e91b6801a391"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on F.Cu",
+                    "pos": {
+                        "x": 146.04,
+                        "y": 82.296
+                    },
+                    "uuid": "5c639afd-c0ff-4bcb-9c4e-52c4f9154bfa"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 145.815,
+                        "y": 82.296
+                    },
+                    "uuid": "26272854-ae9b-45d8-8715-8066aadb5817"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 138.44,
+                        "y": 82.296
+                    },
+                    "uuid": "a7bbe256-02ce-4e08-93ed-955d95b1a8d5"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 138.665,
+                        "y": 82.296
+                    },
+                    "uuid": "f756076e-68bd-499c-a59c-ba7993ad92b6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 138.89,
+                        "y": 82.296
+                    },
+                    "uuid": "feb5cd03-1947-4f14-a51a-f9508c2b354f"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 138.665,
+                        "y": 82.296
+                    },
+                    "uuid": "f756076e-68bd-499c-a59c-ba7993ad92b6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 145.59,
+                        "y": 82.296
+                    },
+                    "uuid": "94ce00f6-3974-488c-a48b-a31c29a4f2e8"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 145.815,
+                        "y": 82.296
+                    },
+                    "uuid": "26272854-ae9b-45d8-8715-8066aadb5817"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Polygon [<no net>] of J2 on B.Cu",
+                    "pos": {
+                        "x": 146.04,
+                        "y": 82.296
+                    },
+                    "uuid": "b4394d76-e8ac-4315-bfb7-dcb123256e2c"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 145.815,
+                        "y": 82.296
+                    },
+                    "uuid": "26272854-ae9b-45d8-8715-8066aadb5817"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 61.312
+                    },
+                    "uuid": "298206fa-7b3e-4262-a0ed-553841131509"
+                },
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 147.058748,
+                        "y": 60.933
+                    },
+                    "uuid": "cdf6dc2f-79d4-495a-9a93-88ee53cce1db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 147.058748,
+                        "y": 63.727
+                    },
+                    "uuid": "3ef8f85a-e2f2-404f-9e5a-15e032bbae3f"
+                },
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 64.39
+                    },
+                    "uuid": "bd9fef4b-cb70-47af-bf2b-1f2109616ab5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 152.3155,
+                        "y": 61.312
+                    },
+                    "uuid": "5845a2a5-7f44-4b1b-9b85-49978f9a07b8"
+                },
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 152.138748,
+                        "y": 60.933
+                    },
+                    "uuid": "ffbc55e2-4480-4ca4-8af3-8f60c33f79df"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of Q1",
+                    "pos": {
+                        "x": 151.393,
+                        "y": 73.2885
+                    },
+                    "uuid": "719fdce7-cba1-4647-af3e-efcdf3c6cd12"
+                },
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 150.622,
+                        "y": 72.24
+                    },
+                    "uuid": "f0b204cb-a817-4248-89c2-9ebd70b91861"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Circle of SW3 on F.Silkscreen",
+                    "pos": {
+                        "x": 128.27,
+                        "y": 63.079
+                    },
+                    "uuid": "37bd714b-491c-4dba-b8d5-f4be71858282"
+                },
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 129.54,
+                        "y": 63.12
+                    },
+                    "uuid": "f027bbcb-5c52-485d-a84f-240b52745e40"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 143.89,
+                        "y": 73.66
+                    },
+                    "uuid": "6cb7bf06-dec3-4308-b40e-ac8eb187a1ab"
+                },
+                {
+                    "description": "Segment of U3 on F.Silkscreen",
+                    "pos": {
+                        "x": 144.202,
+                        "y": 74.021
+                    },
+                    "uuid": "8db39b88-85bf-44bc-a1f0-73fdfaf11220"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 61.312
+                    },
+                    "uuid": "298206fa-7b3e-4262-a0ed-553841131509"
+                },
+                {
+                    "description": "Pad 1 [/3.3V] of C2 on F.Cu",
+                    "pos": {
+                        "x": 146.37,
+                        "y": 60.198
+                    },
+                    "uuid": "2d402f79-7ffb-4138-8eeb-b309d4c0432c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 61.312
+                    },
+                    "uuid": "298206fa-7b3e-4262-a0ed-553841131509"
+                },
+                {
+                    "description": "Pad 2 [GND] of C2 on F.Cu",
+                    "pos": {
+                        "x": 148.27,
+                        "y": 60.198
+                    },
+                    "uuid": "87efc575-a299-4a6a-a9c5-f6fa4f86e45b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 154.56,
+                        "y": 74.0175
+                    },
+                    "uuid": "5c08496b-fa6f-49d5-bb35-20f4a1bbe085"
+                },
+                {
+                    "description": "Pad 1 [Net-(Q2-Pad1)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 153.918,
+                        "y": 74.9675
+                    },
+                    "uuid": "7d693a9d-6db4-4932-a7ae-e1f15f1ba1fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 154.56,
+                        "y": 74.0175
+                    },
+                    "uuid": "5c08496b-fa6f-49d5-bb35-20f4a1bbe085"
+                },
+                {
+                    "description": "Pad 2 [/DTR] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 153.918,
+                        "y": 73.0675
+                    },
+                    "uuid": "61a9c142-a58f-4562-88c9-d9695a72406c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 152.3155,
+                        "y": 61.312
+                    },
+                    "uuid": "5845a2a5-7f44-4b1b-9b85-49978f9a07b8"
+                },
+                {
+                    "description": "Pad 1 [/3.3V] of C5 on F.Cu",
+                    "pos": {
+                        "x": 151.45,
+                        "y": 60.198
+                    },
+                    "uuid": "774f89b1-49ce-47e3-8af0-f53d16f5cc6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of Q1",
+                    "pos": {
+                        "x": 151.393,
+                        "y": 73.2885
+                    },
+                    "uuid": "719fdce7-cba1-4647-af3e-efcdf3c6cd12"
+                },
+                {
+                    "description": "Pad 3 [/IO0] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 151.898,
+                        "y": 74.0175
+                    },
+                    "uuid": "7cddfdee-ec7c-42a5-89c9-33fa0425e0b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 143.89,
+                        "y": 73.66
+                    },
+                    "uuid": "6cb7bf06-dec3-4308-b40e-ac8eb187a1ab"
+                },
+                {
+                    "description": "Pad 14 [unconnected-(U3-CHR1-Pad14)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 144.362,
+                        "y": 73.636
+                    },
+                    "uuid": "0e1fd7b3-f051-4d5f-adb0-d5eea33b69be"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 143.89,
+                        "y": 73.66
+                    },
+                    "uuid": "6cb7bf06-dec3-4308-b40e-ac8eb187a1ab"
+                },
+                {
+                    "description": "Pad 13 [unconnected-(U3-CHREN-Pad13)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 144.362,
+                        "y": 73.136
+                    },
+                    "uuid": "c0f0fffc-5852-410a-abde-3a7b76f524a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of D2",
+                    "pos": {
+                        "x": 142.018,
+                        "y": 75.3476
+                    },
+                    "uuid": "448f9801-d9f1-4c93-998a-e865b0bae49a"
+                },
+                {
+                    "description": "Pad 2 [GND] of R8 on F.Cu",
+                    "pos": {
+                        "x": 142.24,
+                        "y": 74.5725
+                    },
+                    "uuid": "9d4b6e6c-167f-41b9-be1a-89c8dbd45c63"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'FEEDER REMOTE V1.0' on F.Silkscreen",
+                    "pos": {
+                        "x": 137.414,
+                        "y": 61.468
+                    },
+                    "uuid": "53eecd40-ea46-403d-aff4-90fedffc2bbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 154.56,
+                        "y": 74.0175
+                    },
+                    "uuid": "5c08496b-fa6f-49d5-bb35-20f4a1bbe085"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 157.86,
+                        "y": 69.9535
+                    },
+                    "uuid": "a5b4df55-8980-4ac6-8095-7215cbd92551"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 61.312
+                    },
+                    "uuid": "298206fa-7b3e-4262-a0ed-553841131509"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C5",
+                    "pos": {
+                        "x": 152.4,
+                        "y": 58.518
+                    },
+                    "uuid": "c0bcd796-7530-4963-8ac3-d9084ee0ba9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 134.874,
+                        "y": 66.45
+                    },
+                    "uuid": "90cb8f96-56bb-4c0e-a644-bc29b159d2b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 136.496,
+                        "y": 37.592
+                    },
+                    "uuid": "621d0573-0f1e-4394-a417-7c06b8a2fdc2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 129.54,
+                        "y": 44.832
+                    },
+                    "uuid": "4431edb6-277e-4042-849c-5343f4a21452"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D5",
+                    "pos": {
+                        "x": 140.2444,
+                        "y": 59.993
+                    },
+                    "uuid": "84bf9a58-aae4-4611-bdea-86fd88135921"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6400 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D5",
+                    "pos": {
+                        "x": 140.2444,
+                        "y": 59.993
+                    },
+                    "uuid": "84bf9a58-aae4-4611-bdea-86fd88135921"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D1",
+                    "pos": {
+                        "x": 135.922,
+                        "y": 78.6496
+                    },
+                    "uuid": "30308e55-4e10-4fa3-b61e-1e6266606a4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6400 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D1",
+                    "pos": {
+                        "x": 135.922,
+                        "y": 78.6496
+                    },
+                    "uuid": "30308e55-4e10-4fa3-b61e-1e6266606a4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of Q2",
+                    "pos": {
+                        "x": 151.393,
+                        "y": 77.3525
+                    },
+                    "uuid": "e9d49387-e58b-4eab-ab34-b0c7d8255934"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 136.526,
+                        "y": 41.91
+                    },
+                    "uuid": "11e36b5e-c6bb-498b-a2d9-e8aee9c4ce6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 152.3155,
+                        "y": 61.312
+                    },
+                    "uuid": "5845a2a5-7f44-4b1b-9b85-49978f9a07b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 143.51015,
+                        "y": 76.83435
+                    },
+                    "uuid": "a12491b0-0cc1-4278-ba06-f56fb58650c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R6",
+                    "pos": {
+                        "x": 140.082,
+                        "y": 70.104
+                    },
+                    "uuid": "e222b717-814f-4ffd-9406-d92fbf6a8b8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D4",
+                    "pos": {
+                        "x": 139.478,
+                        "y": 76.3636
+                    },
+                    "uuid": "bf663ffc-fe99-4557-af87-78b2c822a6cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6400 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D4",
+                    "pos": {
+                        "x": 139.478,
+                        "y": 76.3636
+                    },
+                    "uuid": "bf663ffc-fe99-4557-af87-78b2c822a6cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 150.254,
+                        "y": 29.564
+                    },
+                    "uuid": "6cb39f38-654b-4203-9be0-67858ea2dc11"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of U2 (Antenna Area)",
+                    "pos": {
+                        "x": 150.254,
+                        "y": 33.864
+                    },
+                    "uuid": "aabf1e8c-4439-497a-af9f-d764c7eea113"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D3",
+                    "pos": {
+                        "x": 135.668,
+                        "y": 75.5556
+                    },
+                    "uuid": "1f054d92-ab8a-4309-bf4f-068603446c0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6400 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D3",
+                    "pos": {
+                        "x": 135.668,
+                        "y": 75.5556
+                    },
+                    "uuid": "1f054d92-ab8a-4309-bf4f-068603446c0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of SW3",
+                    "pos": {
+                        "x": 124.745,
+                        "y": 47.445
+                    },
+                    "uuid": "51c2ebf7-320d-44ae-b53d-6b045aefc5f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C2",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 58.518
+                    },
+                    "uuid": "32b5f187-c92e-4b06-b18e-b8bdaae3f212"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 142.748,
+                        "y": 59.576
+                    },
+                    "uuid": "7d74b37b-04ba-49a1-afc9-e3055d961af2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 127.443315,
+                        "y": 80.162995
+                    },
+                    "uuid": "4f1224aa-5fe5-4c92-b72b-65839991525d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8012 mm)",
+            "items": [
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 127.443315,
+                        "y": 80.162995
+                    },
+                    "uuid": "4f1224aa-5fe5-4c92-b72b-65839991525d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R5",
+                    "pos": {
+                        "x": 138.304,
+                        "y": 73.66
+                    },
+                    "uuid": "78e9089b-3dce-4aa4-b7f6-b865dfdf4088"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of Q1",
+                    "pos": {
+                        "x": 151.393,
+                        "y": 73.2885
+                    },
+                    "uuid": "719fdce7-cba1-4647-af3e-efcdf3c6cd12"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of SW2",
+                    "pos": {
+                        "x": 124.745,
+                        "y": 28.649
+                    },
+                    "uuid": "df2c3234-f3c9-4434-b2ca-ba6d2ac00d62"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 64.39
+                    },
+                    "uuid": "bd9fef4b-cb70-47af-bf2b-1f2109616ab5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 143.89,
+                        "y": 73.66
+                    },
+                    "uuid": "6cb7bf06-dec3-4308-b40e-ac8eb187a1ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of SW1",
+                    "pos": {
+                        "x": 133.993,
+                        "y": 74.489
+                    },
+                    "uuid": "9520e347-204a-49bb-a8a2-fc8e045ff09e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D2",
+                    "pos": {
+                        "x": 142.018,
+                        "y": 75.3476
+                    },
+                    "uuid": "448f9801-d9f1-4c93-998a-e865b0bae49a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6400 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D2",
+                    "pos": {
+                        "x": 142.018,
+                        "y": 75.3476
+                    },
+                    "uuid": "448f9801-d9f1-4c93-998a-e865b0bae49a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 150.622,
+                        "y": 72.24
+                    },
+                    "uuid": "f0b204cb-a817-4248-89c2-9ebd70b91861"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 129.54,
+                        "y": 63.12
+                    },
+                    "uuid": "f027bbcb-5c52-485d-a84f-240b52745e40"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 137.288,
+                        "y": 64.77
+                    },
+                    "uuid": "5a93e50f-d204-4f55-a73d-4524d099bc12"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 156.21,
+                        "y": 74.0175
+                    },
+                    "uuid": "0486b3c8-1c16-4495-888c-54a81c515894"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 156.21,
+                        "y": 69.9535
+                    },
+                    "uuid": "1894bad8-7c3e-4386-b4c3-f2b9404a89d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 62.992
+                    },
+                    "uuid": "1d345586-46ca-4c45-9e0f-e8ce68676fe8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 152.4,
+                        "y": 60.198
+                    },
+                    "uuid": "2e6563c7-d527-44b5-ba49-bee7126efaae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 134.874,
+                        "y": 64.77
+                    },
+                    "uuid": "4850e25f-a221-4e6d-82ea-60d2cb06b831"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 138.176,
+                        "y": 37.592
+                    },
+                    "uuid": "4e433cdd-174c-4e89-89d4-92a9b958e411"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 129.54,
+                        "y": 46.482
+                    },
+                    "uuid": "542dd99d-8714-48ea-a2cc-14f025cd9085"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'LED' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 138.938,
+                        "y": 59.436
+                    },
+                    "uuid": "54d59420-89da-420d-b924-ac2681b154bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'ESDALC5' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 135.89,
+                        "y": 79.756
+                    },
+                    "uuid": "55c5ec69-845f-4066-b4da-de000de2b29d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'SS8050-G' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 152.908,
+                        "y": 74.0175
+                    },
+                    "uuid": "5ca256c4-0d48-4786-a47a-a60ec505e55c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 138.176,
+                        "y": 41.91
+                    },
+                    "uuid": "5d10ad05-4cc5-44e7-ad1d-73eccebbdc17"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 152.3155,
+                        "y": 62.992
+                    },
+                    "uuid": "5f89645d-a17e-489c-95c7-5c8fe1788f45"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'USB3090-XX-X_REVE' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 142.24,
+                        "y": 82.296
+                    },
+                    "uuid": "60568d2e-a1ba-4996-bb62-828d99a40556"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 141.732,
+                        "y": 70.104
+                    },
+                    "uuid": "6cb70071-83d4-4ed0-b042-389482fdb1b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'ESDALC5' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 139.446,
+                        "y": 77.47
+                    },
+                    "uuid": "73d20adc-92f1-48b5-8591-07213f15b46a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PCM_Espressif'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 150.254,
+                        "y": 45.364
+                    },
+                    "uuid": "77cfce32-60e4-4dc1-9265-a1526c1d2d5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'BAT760-7' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 135.636,
+                        "y": 76.962
+                    },
+                    "uuid": "7d7663ca-bc5c-49ca-b33c-216109d2f0fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Right Angle Button' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint SW3",
+                    "pos": {
+                        "x": 128.27,
+                        "y": 55.88
+                    },
+                    "uuid": "7f5a5a79-2773-422e-a1bd-c7714a22d74a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 60.198
+                    },
+                    "uuid": "808c7f8a-a9fe-4d62-99a9-eba5e60f02b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 142.748,
+                        "y": 61.976
+                    },
+                    "uuid": "83f78b24-1255-4b5e-b10e-aa9211e0e244"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'jst' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 130.556,
+                        "y": 79.502
+                    },
+                    "uuid": "9ddc4524-154c-4fa5-bac3-9d077004e8cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 139.954,
+                        "y": 73.66
+                    },
+                    "uuid": "ac789b3a-32c6-4926-a169-2e36b1425375"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'SS8050-G' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 152.908,
+                        "y": 69.9535
+                    },
+                    "uuid": "acbd11e2-ad68-489e-8e7c-a93daf05b991"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Right Angle Button' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint SW2",
+                    "pos": {
+                        "x": 128.27,
+                        "y": 37.084
+                    },
+                    "uuid": "ade05804-e79f-4008-ba7b-74b4623cef3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 66.04
+                    },
+                    "uuid": "b38b823b-f363-4936-8891-204f85ef9c70"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 142.24,
+                        "y": 73.66
+                    },
+                    "uuid": "b3fb8be6-33c4-4920-9ccf-1c91524cf9db"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'TS04-66-55-BK-160-SMT' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 131.318,
+                        "y": 70.104
+                    },
+                    "uuid": "b613e6ec-487d-48b8-a424-6f61f1245ee8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'ESDALC5' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 141.986,
+                        "y": 76.454
+                    },
+                    "uuid": "c6c60529-2e44-4e5d-b643-f86adce39e0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_DFN_QFN'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 146.812,
+                        "y": 72.136
+                    },
+                    "uuid": "e2a4139e-79c7-4f76-9da1-c9ab4a03e1ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 129.54,
+                        "y": 64.77
+                    },
+                    "uuid": "f6bcebe3-0704-4668-bab2-0bff0cbc6c2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 138.938,
+                        "y": 64.77
+                    },
+                    "uuid": "fd963330-271e-4e4a-8e25-88ca2d2dc931"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Padstack is questionable (negative local clearance values have no effect)",
+            "items": [
+                {
+                    "description": "Pad 24 [/RTS] of U3 on F.Cu",
+                    "pos": {
+                        "x": 149.262,
+                        "y": 72.636
+                    },
+                    "uuid": "c3bb2108-5062-481f-a5a8-7246708d4457"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Reference field of SW3",
+                    "pos": {
+                        "x": 124.745,
+                        "y": 47.445
+                    },
+                    "uuid": "51c2ebf7-320d-44ae-b53d-6b045aefc5f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Segment of SW2 on F.Silkscreen",
+                    "pos": {
+                        "x": 124.59,
+                        "y": 30.534
+                    },
+                    "uuid": "e1c910bf-df43-461c-9807-2a673e06031e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Segment of SW2 on F.Silkscreen",
+                    "pos": {
+                        "x": 124.59,
+                        "y": 35.434
+                    },
+                    "uuid": "27d886c7-dfdf-410b-b404-8e41c765092c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 124.206,
+                        "y": 30.48
+                    },
+                    "uuid": "2490b53c-433e-435f-b628-7a8fff3d3351"
+                },
+                {
+                    "description": "Segment of SW2 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.12,
+                        "y": 30.534
+                    },
+                    "uuid": "7cd696a8-6f27-471d-b8eb-b3382b4c27cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}
